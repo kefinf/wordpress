@@ -3,6 +3,7 @@ services:
   name: wordpress
   env: docker
   plan: standard
+  region: frankfurt
   autoDeploy: false
   disk:
     name: wordpress
